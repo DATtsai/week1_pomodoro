@@ -1,0 +1,194 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+main{
+	width: 1280px;
+}
+
+main .index{
+	float: left;
+	/* background: yellow; */
+	height: 36px;
+	width: 552px;
+
+	top: 560px;
+}
+
+main.index li{
+	float: right;
+}
+
+aside{
+	background: #000;
+	width: 560px;
+	height: 800px;
+	float: left;
+}
+
+h1.title{
+	font-size: 21px;
+	font-weight: 700;
+	letter-spacing: 2.1px;
+	color: #ffffff;
+
+	position: absolute;
+	top: 196px;
+	left: 110px;
+	
+	transform: rotate(-45deg);
+}
+
+.bg .bg-outer{
+	background-color: #ba000d;
+	border-radius: 50%;
+	width: 216px;
+	height: 216px;
+
+	position: absolute;
+	top: 220px;
+	left: 194px;
+
+}
+
+.bg .bg-ring{
+	background-color: #000;
+	border-radius: 50%;
+	width: 204px;
+	height: 204px;
+
+	position: absolute;
+	left: 200px;
+	top: 226px;
+}
+
+.bg .bg-circle{
+	background-color: #f44336;
+	border-radius: 50%;
+	width: 192px;
+	height: 192px;
+	overflow: hidden;
+
+	position: absolute;
+	left: 206px;
+	top: 232px;
+}
+
+.bg .bg-leaf{
+	background-color: #6b9b37;
+	border-radius: 44px 44px 0 0;
+	height: 22px;
+	width: 44px;
+	transform: rotate(-135deg);
+
+	position: absolute;
+	top: 190px;
+	left: 240px;
+}
+
+.bg-deco1{
+	/* width: 118px;
+	height: 236px;
+	border: 3px solid #ffffff;
+	border-radius: 100% 0 0 100%/50%;
+	border-right: none; */
+
+    border: 3px solid #ffffff;
+    display: inline-block;
+    min-width: 242px;
+    min-height: 242px;
+    border-radius: 50%;
+    border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-right-color: transparent;
+	transform: rotate(15deg);
+
+	position: absolute;
+	top: 204px;
+	left: 178px;
+}
+
+.start{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 27px 0 27px 45px;
+	border-color: transparent transparent transparent #ffffff;
+
+	position: absolute;
+	top: 300px;
+	left: 288px;
+}
+
+.time-countdown{
+	font-size: 90px;
+	font-weight: 700;
+	letter-spacing: 9px;
+	color: #ffffff;
+	line-height: 126px;
+
+	position: absolute;
+	top: 464px;
+	left: 158px;
+}
+
+.underline{
+	border: 3px solid #ffffff;
+	width: 130px;
+}
+
+.doing{
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 2.2px;
+	color: #ffffff;
+
+	position: absolute;
+	top: 608px;
+	left: 158px;
+}
